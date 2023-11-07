@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="../assets/css/menu.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/fonts/fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="header-top">
+        <div class="top-bar">
+          <div class="info">
+            <div class="info-left">
+              <i class="fa-solid fa-phone"></i>
+              <p>(414) 857 - 010</p>
+            </div>
+            <div class="info-right">
+              <i class="fa-solid fa-envelope"></i>
+              <p>yummy@bistrobliss</p>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+      <div class="header-bt">
+        <div class="header-form">
+          <div class="logo">
+            <img src="../assets/images/Content/logo.png" alt="" />
+            <h1 class="title">Food Shop</h1>
+          </div>
+          <div class="nav-menu">
+            <a href="../index.html">Home</a>
+            <a href="../nav/about.html">About</a>
+            <a href="../nav/menu.html">Menu</a>
+            <a href="./blog.html">Pages</a>
+            <a href="../nav/contact.html">Contact</a>
+          </div>
+          <div class="button">Book A Table</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="container text-center menu">
+      <div class="menu-title">
+        <h1>Our Menu</h1>
+        <p>
+          We consider all the drivers of change gives you the components you
+          need to change to create a truly happens.
+        </p>
+        <div id="menu-btn">
+          <button class="btn active" onclick="filterSelection('all')">
+            All
+          </button>
+          <button class="btn" onclick="filterSelection('breakfast')">
+            Breakfast
+          </button>
+          <button class="btn" onclick="filterSelection('main')">
+            Main Dishes
+          </button>
+          <button class="btn" onclick="filterSelection('drinks')">
+            Drinks
+          </button>
+          <button class="btn" onclick="filterSelection('desserts')">
+            Desserts
+          </button>
+        </div>
+      </div>
+
+      <div class="row align-items-start container-menu">
+        <div class="col-md-3 filterDiv main">
+          <div class="menu-card">
+            <img src="../assets/images/Menu/menu1.png" alt="" />
+            <div class="menu-text">
+              <h3>$9.99</h3>
+              <h4>Fried Eggs</h4>
+              <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 filterDiv main">
+          <div class="menu-card">
+            <img src="../assets/images/Menu/menu2.png" alt="" />
+            <div class="menu-text">
+              <h3>$15.99</h3>
+              <h4>Hawaiian Pizza</h4>
+              <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 filterDiv drinks">
+          <div class="menu-card">
+            <img src="../assets/images/Menu/menu3.png" alt="" />
+            <div class="menu-text">
+              <h3>$7.25</h3>
+              <h4>Martinez Cocktail</h4>
+              <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 filterDiv desserts">
+          <div class="menu-card">
+            <img src="../assets/images/Menu/menu4.png" alt="" />
+            <div class="menu-text">
+              <h3>$20.99</h3>
+              <h4>Butterscotch Cake</h4>
+              <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 filterDiv drinks">
+          <div class="menu-card">
+            <img src="../assets/images/Menu/menu5.png" alt="" />
+            <div class="menu-text">
+              <h3>$5.89</h3>
+              <h4>Mint Lemonade</h4>
+              <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 filterDiv desserts">
+          <div class="menu-card">
+            <img src="../assets/images/Menu/menu6.png" alt="" />
+            <div class="menu-text">
+              <h3>$18.05</h3>
+              <h4>Chocolate Icecream</h4>
+              <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 filterDiv breakfast">
+          <div class="menu-card">
+            <img src="../assets/images/Menu/menu7.png" alt="" />
+            <div class="menu-text">
+              <h3>$12.55</h3>
+              <h4>Cheese Burger</h4>
+              <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 filterDiv breakfast">
+          <div class="menu-card">
+            <img src="../assets/images/Menu/menu8.png" alt="" />
+            <div class="menu-text">
+              <h3>$12.99</h3>
+              <h4>Classic Waffles</h4>
+              <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Brand -->
+    <div class="menu-brand">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="brand-title">
+              <h2>You can order through apps</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit enim
+                bibendum sed et aliquet aliquet risus tempor semper.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="brand-logo">
+              <div class="box-top">
+                <img src="../assets/images/Menu/brand-logo1.png" alt="" />
+                <img src="../assets/images/Menu/brand-logo2.png" alt="" />
+                <img src="../assets/images/Menu/brand-logo3.png" alt="" />
+              </div>
+              <div class="box-beetween">
+                <div class="bt-box">
+                  <img src="../assets/images/Menu/brand-logo4.png" alt="" />
+                </div>
+                <div class="bt-box">
+                  <img src="../assets/images/Menu/brand-logo5.png" alt="" />
+                </div>
+                <div class="bt-box">
+                  <img src="../assets/images/Menu/brand-logo6.png" alt="" />
+                </div>
+              </div>
+              <div class="box-bottom">
+                <img src="../assets/images/Menu/brand-logo7.png" alt="" />
+                <img src="../assets/images/Menu/brand-logo8.png" alt="" />
+                <img src="../assets/images/Menu/brand-logo9.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container text-center">
+        <div class="row align-items-start footer-top">
+          <div class="col footer-box-one">
+            <div class="footer-logo">
+              <img src="../assets/images/Content/footer-logo.png" alt="" />
+              <h2>Bistro Bliss</h2>
+            </div>
+            <p>
+              In the new era of technology we look a in the future with
+              certainty and pride to for our company and.
+            </p>
+            <div class="footer-info">
+              <img
+                class=""
+                src="../assets/images/Content/footer-icon1.png"
+                alt=""
+              />
+              <img
+                class="footer-contact"
+                src="../assets/images/Content/footer-icon2.png"
+                alt=""
+              />
+              <img
+                class="footer-contact"
+                src="../assets/images/Content/footer-icon3.png"
+                alt=""
+              />
+              <img
+                class="footer-contact"
+                src="../assets/images/Content/footer-icon4.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col footer-box-two">
+            <div class="col footer-box-left">
+              <h3>Pages</h3>
+              <ul class="list-nav-left">
+                <li>Home</li>
+                <li>About</li>
+                <li>Menu</li>
+                <li>Pricing</li>
+                <li>Blog</li>
+                <li>Contact</li>
+                <li>Dilivery</li>
+              </ul>
+            </div>
+            <div class="col footer-box-right">
+              <h3>Utility Pages</h3>
+              <ul class="list-nav-right">
+                <li>Start Here</li>
+                <li>Styleguide</li>
+                <li>Password Protected</li>
+                <li>404 Not Found</li>
+                <li>Licenses</li>
+                <li>Changelog</li>
+                <li>View More</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col footer-box-three">
+            <h3>Follow Us On Instagram</h3>
+            <div class="row align-items-start footer-img">
+              <div class="col-md-6">
+                <img src="../assets/images/Content/footer-img1.png" alt="" />
+              </div>
+              <div class="col-md-6">
+                <img src="../assets/images/Content/footer-img2.jpg" alt="" />
+              </div>
+              <div class="col-md-6">
+                <img src="../assets/images/Content/footer-img3.png" alt="" />
+              </div>
+              <div class="col-md-6">
+                <img src="../assets/images/Content/footer-img4.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../assets/js/menu.js"></script>
+</html>
